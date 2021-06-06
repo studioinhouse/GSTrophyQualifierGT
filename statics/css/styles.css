@@ -102,3 +102,91 @@
 .hamburger::after{
     transform: translateY(3px);
 }
+
+/* Hero */
+
+.hero{
+    margin: 40px 0;
+}
+
+/* Section divisor */
+
+.divisor{
+    width: 80vw;
+    height: 7vh;
+    margin: auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 40px;
+}
+
+.divisor__line-left,
+.divisor__line-right{
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
+.divisor__image{
+    width: 80%;
+    grid-column-start:2;
+    grid-column-end:3;
+}
+
+.divisor__line-right{
+    grid-column-start:3;
+    grid-column-end:4;
+}
+
+/* Section - GS Trophy Qualifier 2021 */
+
+.section-trophy{
+    width: 80vw;
+    margin: auto;
+}
+
+.section-trophy__cabecera--titulo{
+    width: 80%;
+    margin: auto;
+    font-size: 2rem;
+    font-family: var(--primary-font);
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.3;
+}
+
+.section-trophy__logo{
+    width: 50%; 
+    display: block;
+    margin: 2rem auto;
+}
+
+.section__trophy__parrafo--texto{
+    font-size: 1.2rem;
+    font-family: var(--secundary-font);
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.section-qualifier__video{
+    width: 100vw;
+    height: 40vh;
+    margin: 40px 0;
+}
+
+.paragraph-trophy{
+    width: 80%;
+    margin: auto; 
+    padding-bottom: 40px;    
+}
+
+.divisor__title__content{
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 0 1rem;
+}
+
