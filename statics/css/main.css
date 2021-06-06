@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.54%;
+}
+
+@font-face{
+    src: url(../fonts/BMWMotorrad-Heavy.ttf);
+	font-family: "BMWMotorrad-Heavy";
+}
+
+@font-face{
+    src: url(../fonts/BMWMotorrad-Regular.ttf);
+	font-family: "BMWMotorrad-Regular";
+}
+
+:root{
+    --primary-color: #0062ff;
+    --primary-color-hov: #0066b1;
+    --secundary-color: #000000;
+    --tertiary-color: #a6a6a6;
+    --primary-font: "BMWMotorrad-Heavy";
+    --secundary-font: "BMWMotorrad-Regular";
+}
