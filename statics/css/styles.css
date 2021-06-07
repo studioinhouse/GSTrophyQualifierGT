@@ -142,7 +142,7 @@
     grid-column-end:4;
 }
 
-/* Section - GS Trophy Qualifier 2021 */
+/* Section - GS Trophy */
 
 .section-trophy{
     width: 80vw;
@@ -172,6 +172,8 @@
     margin-bottom: 40px;
 }
 
+/* Section - GS Trophy Qualifier GT 2021 */
+
 .section-qualifier__video{
     width: 100vw;
     height: 40vh;
@@ -191,3 +193,52 @@
     padding: 0 1rem;
 }
 
+/* Section - Reglamentos */
+
+.container-rules{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 6fr;
+    grid-gap: 10px 10px;
+    justify-items:center;
+    align-items:center;
+}
+
+.container-rules__img--1{
+    grid-column-start:1;
+    grid-column-end: 2;
+}
+
+.container-rules__img--2{
+    grid-column-start:2;
+    grid-column-end: 3;
+}
+
+.paragraph{
+    display:flex;
+    width: 100%;
+    padding: 2rem;
+}
+.paragraph__number{
+    width: 30px;
+    height: 30px;
+    background-color: var(--primary-color);
+    border-radius: 100rem;
+    font-size: 2rem;
+    font-family: var(--primary-font);
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.paragraph__title{
+    font-size: 1rem;
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.paragraph__number--color{
+    background-color: #f1c102;
+}
