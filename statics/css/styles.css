@@ -309,3 +309,10 @@
     transform:rotate(-100deg);
     
 }
+
+/* Section - podio de ganadores*/
+
+.divisor__line-left--color,
+.divisor__line-right--color{
+    background-color: #f1c102;
+}
