@@ -75,20 +75,14 @@
                         <div class="pop-up__close--figure"></div>
                     </div>
                     <div class="pop-up__container">
-                        <h2 class="pop-up__title">Propiedad de la moto</h2>
-                        <p class
-                        ="pop-up__paragraph">
-                            1) El evento es exclusivo para propietarios de motos BMW GS. Debe de demostrarse la propiedad de la misma por medio de la tarjeta de circulación.</br></br>  
-                            2) En el caso de motos a nombre de empresas deberá de  presentarse el caso y las constancias de pago a la organización para su aprobación.</br></br> 
-                            3) Se autoriza el uso de motos en primer grado sanguíneo. ( Padre e hijo )</br></br>
-                            4) No se puede participar en motos prestadas o traspasadas temporalmente de forma fraudulenta lo cual da lugar a DESCALIFICACIÓN.
-                            </p>
+                        <h2 id="title-pop-up" class="pop-up__title"></h2>
+                        <p id="paragraph-pop-up" class="pop-up__paragraph"></p>
                     </div>
                 </div>
             </div>
             <!-- Fila superior de reglamentos-->
-            <img class="container-rules__img container-rules__img--1" onclick="dialogPopupOpen()" src="./statics/images/Icono_propiedad_de_la_moto.png" alt="botón de reglamento para propietarios de una motociclta BMW Motorrad"/>
-            <img class="container-rules__img container-rules__img--2" onclick="dialogPopupOpen()" src="./statics/images/Icono_pilotos.png" alt="botón de reglamento para pilotos"/>
+            <img id="1" class="container-rules__img container-rules__img--1" onclick="dialogPopupOpen()" src="./statics/images/Icono_propiedad_de_la_moto.png" alt="botón de reglamento para propietarios de una motociclta BMW Motorrad"/>
+            <img id="2" class="container-rules__img container-rules__img--2" onclick="dialogPopupOpen()" src="./statics/images/Icono_pilotos.png" alt="botón de reglamento para pilotos"/>
             <div class="paragraph">
                 <p class="paragraph__number">1</p>
                 <p class="paragraph__title">Propiedad de </br> la moto</p>
@@ -99,8 +93,8 @@
             </div>
 
             <!-- Fila intermedia de reglamentos-->
-            <img class="container-rules__img" onclick="dialogPopupOpen()" src="./statics/images/Icono_repeticion_de_participacion.png" alt="botón de reglamento correspondiente a repeción de la participación"/>
-            <img class="container-rules__img" onclick="dialogPopupOpen()" src="./statics/images/Icono_conducta.png" alt="botón de reglamento sobre la conducta de los participantes"/>
+            <img id="3" class="container-rules__img" onclick="dialogPopupOpen()" src="./statics/images/Icono_repeticion_de_participacion.png" alt="botón de reglamento correspondiente a repeción de la participación"/>
+            <img id="4" class="container-rules__img" onclick="dialogPopupOpen()" src="./statics/images/Icono_conducta.png" alt="botón de reglamento sobre la conducta de los participantes"/>
             <div class="paragraph">
                 <p class="paragraph__number">3</p>
                 <p class="paragraph__title">repetición </br>de participación</p>
@@ -111,8 +105,8 @@
             </div>
 
             <!-- Fila inferior de reglamentos-->
-            <img class="container-rules__img" onclick="dialogPopupOpen()" src="./statics/images/Icono_reclamos.png" alt="botón de reglamento correspondiente a reclamos"/>
-            <img class="container-rules__img" onclick="dialogPopupOpen()" src="./statics/images/Icono_acompañantes.png" alt="botón de reglamento para los acompañantes"/>
+            <img id="5" class="container-rules__img" onclick="dialogPopupOpen()" src="./statics/images/Icono_reclamos.png" alt="botón de reglamento correspondiente a reclamos"/>
+            <img id="6" class="container-rules__img" onclick="dialogPopupOpen()" src="./statics/images/Icono_acompañantes.png" alt="botón de reglamento para los acompañantes"/>
             <div class="paragraph">
                 <p class="paragraph__number">5</p>
                 <p class="paragraph__title">reclamos</p>
@@ -131,7 +125,8 @@
     </main>
 </body>
 <script src="./src/app.js"></script>
-
-
+<script src="./src/modules/objectModel.js" type="module"></script>
+<script src="./src/modules/rules.js" type="module"></script>
+<script src="./src/modules/displayContent.js" type="module"></script>
 
 </html>

@@ -1,8 +1,3 @@
-const slider = document.querySelectorAll(".container-rules");
-
-console.log(slider);
-
-
 let cambiarClase=()=>{
     let siteNav = document.getElementById('site-nav');
         siteNav.classList.toggle('site-nav-open');
