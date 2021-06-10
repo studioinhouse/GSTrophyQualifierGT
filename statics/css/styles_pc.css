@@ -1,0 +1,239 @@
+/* Adaptabilidad para vista PC */
+
+@media only screen and (min-width: 1280px){
+
+/* Header Container */
+
+header{
+    position:fixed;
+    background-color: #ffffff;
+    z-index: 10;
+}
+
+.container{
+    height: 12vh;
+}
+
+.container-img{
+    width: 18%;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    padding: 2rem;
+
+}
+
+.container-img__brand{
+    width: 100%;
+}
+/* Direction home */
+
+.container-direct__img{
+    display: none;    
+}
+
+/* Divisor */
+
+.divisor{
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+.divisor__image{
+    width: 44%;
+}
+
+/* Que es el GS Trophy */
+
+.section-trophy__cabecera--titulo{
+    width: 100%;
+    margin: 2rem auto;
+    font-size: 4rem;
+    font-family: var(--primary-font);
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 1.3;
+}
+
+.section-trophy__container--article{
+    display: flex;
+}
+
+.section-trophy__logo{
+    width: 17%;
+    margin: 0 auto;
+}
+
+.section__trophy__parrafo--texto{
+    width: 60%;
+    font-size: 1.7rem;
+}
+
+/* Section - GS Trophy Qualifier GT 2021 */
+
+.section-qualifier{
+    width: 80%;
+    margin: auto;
+}
+
+.section-qualifier__video{
+    width: 50vw;
+    height: 25vw;
+    margin: 5rem 4rem;
+}
+
+/* Section - Reglamentos */
+
+
+.container-rules{
+    width:80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    margin-bottom: 5rem;
+}
+
+.container-rules__img--1{
+    grid-column-start:1;
+    grid-column-end: 2;
+}
+
+.container-rules__img--2{
+    grid-column-start:2;
+    grid-column-end: 3;
+}
+
+.container-rules__img--3{
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.container-rules__img--4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.container-rules__img--5{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;    
+}
+
+.container-rules__img--6{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;    
+}
+
+.paragraph{
+    justify-content: center;
+}
+
+/* Section - Pop up dialog box for rules*/
+
+.pop-up{
+    width: 60vw;
+}
+
+.pop-up__title{
+    font-size: 2.5rem;
+}
+
+.pop-up__paragraph{
+    font-size: 1.7rem;
+
+}
+
+/* Section - vehículos de ganadores*/
+
+.container-table-win{
+    width: 80%;
+    margin: auto;
+    padding-top: 5rem;
+    grid-template-rows: 1.5fr 0.5fr;
+    padding-bottom: 4rem;
+}
+
+.container-table-win__img-izq,
+.container-table-win__img-der{
+    width: 25%;
+
+}
+
+.container-table-win__img--moto{
+    width: 80%;
+}
+
+.container-winer--name{
+    font-size: 4.5rem;
+
+}
+
+.container-winer--pts{
+    font-size: 7.5rem;
+}
+
+.container-pts,
+.container-position-table{
+    width: 80%;
+    margin: auto;
+}
+
+/* Comment pc-section */
+.comment-pc{
+    display: flex;
+}
+
+.blanck-block{
+    display: block;
+    width: 100vw;
+    height: 60vh;
+    background-color: #f7f7f7;
+}
+
+
+
+.coment-scroll{
+    width: 200vw;
+    display: flex;
+}
+
+.container-coment__text{
+    font-size: 1.6rem;
+}
+
+.container-coment__img{
+    width: 16%;
+    left: 6rem;
+}
+
+.container-coment__reference{
+    font-size: 2.5rem;
+    left: 9rem;
+    line-height: 1.8rem;
+}
+
+.blanck-block__text{
+    font-family: var(--primary-font);
+    font-size: 3rem;
+    color: #000000;
+    margin: auto;
+    text-align: center;
+    padding: 15rem;
+}
+
+/* Footer */
+
+.container-footer__img{
+    width: 10%;
+}
+
+
+
+

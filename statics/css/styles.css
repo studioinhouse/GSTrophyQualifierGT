@@ -470,6 +470,10 @@
 
 /* Coment section*/
 
+.blanck-block{
+    display: none;
+}
+
 .coment{
     width: 100vw;
     height: 60vh;
