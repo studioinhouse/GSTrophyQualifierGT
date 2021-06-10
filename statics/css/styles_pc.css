@@ -1,6 +1,6 @@
 /* Adaptabilidad para vista PC */
 
-@media only screen and (min-width: 1280px){
+@media only screen and (min-width: 1024px){
 
 /* Header Container */
 
@@ -196,8 +196,6 @@ header{
     height: 60vh;
     background-color: #f7f7f7;
 }
-
-
 
 .coment-scroll{
     width: 200vw;

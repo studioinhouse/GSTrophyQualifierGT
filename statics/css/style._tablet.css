@@ -1,0 +1,144 @@
+@media only screen and (min-width: 720px){
+
+    /* Header Container */
+
+.container{
+    height: 8vh;
+}
+    
+.container-img{
+    width: 18%;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    padding: 2rem;
+    
+}
+    
+.container-img__brand{
+   width: 100%;
+}
+
+.menu-toggle {
+    left: 1.6rem;
+}
+
+/* Direction home */
+
+.container-direct__img{
+    width: 7%;
+    bottom: 5rem;
+    right: 4rem;
+}
+
+/* Divisor */
+
+.divisor{
+    grid-template-columns: 1fr 0.5fr 1fr;
+
+}
+
+/* ¿Qué es el Trophy? */
+.section-trophy__cabecera--titulo{
+    font-size: 2.5rem;
+}
+
+.section-trophy__logo{
+    width: 35%;
+}
+
+.section__trophy__parrafo--texto {
+    font-size: 1.7rem;
+}
+
+/* Trophy Qualifier GT */
+.section-qualifier__video {
+    height: 53vh;
+}
+
+/* Section - Reglamentos */
+
+.container-rules{
+    width:80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    margin-bottom: 5rem;
+}
+
+.paragraph{
+    justify-content: center;
+}
+
+/* Section - Pop up dialog box for rules*/
+
+.pop-up{
+    width: 70vw;
+}
+
+.pop-up__title{
+    font-size: 2.5rem;
+}
+
+.pop-up__paragraph{
+    font-size: 1.7rem;
+
+}
+
+/* Marco de podium de ganadores */
+
+.container-table-win__img-izq,
+.container-table-win__img-der{
+    width: 35%;
+
+}
+
+.container-table-win__img--moto{
+    width: 90%;
+}
+
+.container-winer--name{
+    font-size: 3.5rem;
+
+}
+
+.container-winer--pts{
+    font-size: 7.5rem;
+}
+
+.container-pts,
+.container-position-table{
+    width: 80%;
+    margin: auto;
+}
+
+.container-table-win{
+    grid-template-rows: 0.5fr 0.5fr;
+}
+
+/* Coment */
+
+.container-coment__text{
+    font-size: 2rem;
+}
+
+.container-coment__img{
+    width: 16%;
+    left: 6rem;
+}
+
+.container-coment__reference{
+    font-size: 2.5rem;
+    left: 9rem;
+    line-height: 1.8rem;
+}
+
+.container-footer{
+    height: 10vh;
+}
+.container-footer__img{
+    width: 20%;
+}
+
+}
