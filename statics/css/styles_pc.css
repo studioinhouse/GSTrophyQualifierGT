@@ -185,6 +185,16 @@ header{
     margin: auto;
 }
 
+.container-position-table__person--img {
+    width: 20%;
+}
+
+.container-position-table__person--name, 
+.container-position-table--pts, 
+.container-position-table--number {
+    font-size: 1.8rem;
+}
+
 /* Comment pc-section */
 .comment-pc{
     display: flex;
