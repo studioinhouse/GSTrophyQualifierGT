@@ -15,12 +15,12 @@
       <section class="container"></section>
           <nav id="site-nav" class="menu">
               <ul class="menu__list">
-                  <li class="menu__list--element"><a href="#">GS Trophy Qualifier 2021</a></li>
-                  <li class="menu__list--element"><a href="#">¿Qué es el GS Trophy?</a></li>
-                  <li class="menu__list--element"><a href="#">Reglamento</a></li>
-                  <li class="menu__list--element"><a href="#">Ganadores</a></li>
-                  <li class="menu__list--element"><a href="#">Tabla de posiciones</a></li>
-                  <li class="menu__list--element"><a href="#">Testimonios</a></li>
+                  <li class="menu__list--element"><a href="#TropyQualier">GS Trophy Qualifier 2021</a></li>
+                  <li class="menu__list--element"><a href="#GSTrophy">¿Qué es el GS Trophy?</a></li>
+                  <li class="menu__list--element"><a href="#rules">Reglamento</a></li>
+                  <li class="menu__list--element"><a href="#winers">Ganadores</a></li>
+                  <li class="menu__list--element"><a href="#winers-table">Tabla de posiciones</a></li>
+                  <li class="menu__list--element"><a href="#coment">Testimonios</a></li>
                   <li class="menu__list--element"><a href="#">Galería</a></li>
               </ul>
           </nav>
@@ -33,17 +33,20 @@
       </section>
     </header>
     <main>
-        <picture>
+        <picture id="home">
             <source media="(min-width:1280px)" srcset="./statics/images/Hero_pc.png">
             <source media="(min-width:720px)" srcset="./statics/images/Hero_tablet.png">
             <img class="hero" src="./statics/images/Hero.png" alt="Fotografía tomada desde el aire por un drone del área de campañamento del GS Trophy Qualifier GT 2019"/>
         </picture>
+        <section class="container-direct">
+            <a href="#home"> <img class="container-direct__img" src="./statics/images/Icono_scroll_home.png" alt="botón de direccionamiento al home"/></a>
+        </section>
         <section class="divisor">
             <div class="divisor__line-left"></div>
             <img class="divisor__image" src="./statics/images/Icono_montaña-01.png" alt="Ilustración de montaña para delimietar la sección informativa del GS Trophy Qualifier GT"/>
             <div class="divisor__line-right"></div>
         </section>
-        <section class="section-trophy">
+        <section id="GSTrophy" class="section-trophy">
             <h1 class="section-trophy__cabecera--titulo">¿Qué es el <br>GS Trophy?</h1>
             <img class ="section-trophy__logo" src="./statics/images/Icono_GS_Trophy-01.png" alt="Logo GS Trophy Qualifier 2022"/>
             <p class="section__trophy__parrafo--texto">Son siete días de pura aventura. Siete días, y dos años de preparación. Siete días que cambian la vida. Cada rider puede participar una única vez en el International GS Trophy. Sin embargo, no es una carrera clásica; ya que los exigentes desafíos en los que los participantes demuestran sus conocimientos y habilidades de conducción, tienen que ver tanto con el espíritu como con la habilidad del equipo. Tuvo sus inicios en el año 2008 y hasta la fecha se han celebrado en 7 ocasiones:</br></br>
@@ -55,7 +58,7 @@
             <img class="divisor__image" src="./statics/images/Icono_montaña-01.png" alt="Ilustración de montaña para delimietar la sección informativa del GS Trophy Qualifier GT"/>
             <div class="divisor__line-right"></div>
         </section>
-        <section class=section-qualifier>
+        <section id="TropyQualier" class=section-qualifier>
             <h1 class="section-trophy__cabecera--titulo">GS Trophy 2021 <br>Qualifier GT</h1>
             <iframe class="section-qualifier__video" src="https://www.youtube.com/embed/hqMjvcrWbIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p class="section__trophy__parrafo--texto paragraph-trophy">Es el evento más grande del año del mundo GS en Guatemala. Tres días llenos de pruebas, retos técnicos y mucha diversión, donde cada uno de los participantes ponen a prueba sus habilidades de manejo, así como el compañerismo que representa a la comunidad de motoristas Off-road en busca de uno de los 3 lugares para representar a Guatemala en el GS Trophy Qualifier Regional y así poder competir por formar parte del equipo latinoamericano en el GS Trophy 2022 a realizarse en Albania.</p>
@@ -67,7 +70,7 @@
             <div class="divisor__line-right"></div>
         </section>
 
-        <section class="container-rules">
+        <section id="rules" class="container-rules">
             <!-- Dialog pop-up box-->
             <div id="open" class="float-pop-up">
                 <div id="dialog-pop-up" class="pop-up">
@@ -124,11 +127,11 @@
             <img id="winer-place" class="divisor__image"/>
             <div class="divisor__line-right divisor__line-right--color"></div>
         </section>
-        <section class="container-table-win">
+        <section id="winers" class="container-table-win">
             <img id="arrow-left" class="container-table-win__img-izq" src="./statics/images/Iconos_flecha_izquierda.png" alt="flecha izquierda para la navegación entre los ganadores"/>
             <img id ="win-moto" class="container-table-win__img--moto"/>
             <img id ="arrow-right" class="container-table-win__img-der" src="./statics/images/Iconos_flecha_derecha.png" alt="flecha derecha para la navegación entre los ganadores"/>
-            <div class="container-table-win__winer">
+            <div id="winers-table" class="container-table-win__winer">
                 <div class="container-winer">
                     <p id="winer-name" class="container-winer--name"></p>
                     <p class="container-winer--title">Puntuación</p>
@@ -148,12 +151,64 @@
         </section>
         <section id="constructor-table" class="container-position-table">
         </section>
+
+        <!-- Área de testimonios -->
+        
         <section class="divisor">
             <div class="divisor__line-left"></div>
             <h1 class="divisor__title__content">Testimonios</h1>
             <div class="divisor__line-right"></div>
         </section>
-
+        <section id="coment" class=coment>
+            <div class="coment-scroll">
+                <section class="container-coment">
+                    <img class="container-coment__img" src="statics/images/Iconos_usuario_testimonio.png" alt="icono de un casto que represetna el testimonio de los participantes"/>
+                    <div class="container-coment__cloud">
+                        <p class="container-coment__text">"El Trophy es una comunidad de aventureros con alto valor de amistad donde se ponene a prueba las habilidades de los mejores pilotos de doble propósito"</p>
+                    </div>
+                    <div class="container-coment__reference">
+                        <h2>Alex Rudeke</h2>
+                        <p >Director de evento</br>GS Trophy 2021</p>
+                    </div>
+                </section>
+                <section class="container-coment">
+                    <img class="container-coment__img" src="statics/images/Iconos_usuario_testimonio.png" alt="icono de un casto que represetna el testimonio de los participantes"/>
+                    <div class="container-coment__cloud">
+                        <p class="container-coment__text">"El GS Trophy es una experiencia que te hace sentirte más vivo que nunca. ¿Qué te hace sientir vivo? El contacto con la naturaleza, el andar todo el día en tu moto, la amistad con las personas."</p>
+                    </div>
+                    <div class="container-coment__reference">
+                        <h2>Luis Arturo Palmieri</h2>
+                        <p >Marshall</br>GS Trophy 2021</p>
+                    </div>
+                </section>
+                <section class="container-coment">
+                    <img class="container-coment__img" src="statics/images/Iconos_usuario_testimonio.png" alt="icono de un casto que represetna el testimonio de los participantes"/>
+                    <div class="container-coment__cloud">
+                        <p class="container-coment__text">"Es una de esas aventuras en la vida que trascienden o te marcan, que te cambian la interprectación de la aventura, te hace desarrollarte como piloto y como ser humano."</p>
+                    </div>
+                    <div class="container-coment__reference">
+                        <h2>José Pinto</h2>
+                        <p >Marshall</br>GS Trophy 2021</p>
+                    </div>
+                </section>
+                <section class="container-coment">
+                    <img class="container-coment__img" src="statics/images/Iconos_usuario_testimonio.png" alt="icono de un casto que represetna el testimonio de los participantes"/>
+                    <div class="container-coment__cloud">
+                        <p class="container-coment__text">"Es la aventura que define el sentimiento de libertad, amistad y compañerismo que todos los amantes de GS deseamos vivir"</p>
+                    </div>
+                    <div class="container-coment__reference">
+                        <h2>Gato Vides</h2>
+                        <p >Marshall</br>GS Trophy 2021</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <footer>
+            <div class="container-footer">
+                <img class="container-footer__img" src="./statics/images/Logo_BMW_blanco.png" alt="Logo BMW Motorrad para fondos color negro"/>
+               <!--  <p class="container-footer--text">Copyright 2021</p -->>
+            </div>
+        </footer>
     </main>
 </body>
 <script src="./src/app.js"></script>
