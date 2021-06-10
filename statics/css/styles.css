@@ -316,3 +316,144 @@
 .divisor__line-right--color{
     background-color: #f1c102;
 }
+
+/* Section - vehículos de ganadores*/
+
+.container-table-win{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    grid-template-rows: 1.5fr 1fr;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.container-table-win__img-izq,
+.container-table-win__img-der{
+    width: 50%;
+
+}
+
+.container-table-win__img--moto{
+    width: 100%;
+}
+
+.container-table-win__img-der{
+    justify-self: end;
+}
+
+.container-table-win__img-izq{
+    justify-self:start;
+}
+
+.container-table-win__winer{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end:3;
+}
+
+.container-winer{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items:center;
+}
+
+.container-winer--name{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:2;
+    grid-row-end: 3;
+    font-family: var(--primary-font);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    line-height: 27px;
+}
+
+.container-winer--title{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:1;
+    grid-row-end: 2;
+    font-family: var(--secundary-font);
+    font-size: 1.5rem;
+    align-self: end;
+}
+
+.container-winer--pts{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:2;
+    grid-row-end: 3;
+    font-family: var(--primary-font);
+    font-size: 5.5rem;
+}
+
+.divisor__title--table{
+    text-align: center;
+    line-height: 2rem;
+}
+
+/* Section table winers head */
+
+.container-pts{
+    display:grid;
+    grid-template-columns: 0.4fr 1.5fr 0.8fr;
+    grid-gap: 0.2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.container-pts--number,
+.container-pts--name,
+.container-pts--points{
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+}
+
+/* Section for winers*/
+
+.container-position-table{
+    display: grid;
+    grid-template-columns: 0.4fr 1.5fr 0.8fr;
+    grid-template-rows: repeat(34, 1fr);
+    grid-gap: 0.2rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.container-position-table__person{
+    display:grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    padding: 0.5rem 1rem;
+    grid-column-start: 2;
+    grid-column-end:3;
+}
+
+.container-position-table__person--img{
+    width: 50%;
+    justify-self: end;
+}
+
+.container-position-table__person--name{
+    justify-self: start;
+}
+.container-position-table__person--name,
+.container-position-table--pts,
+.container-position-table--number{
+    font-family: var(--secundary-font);
+    font-size: 1.5rem;
+}
+
+.container-position-table--number{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.container-position-table--pts{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}

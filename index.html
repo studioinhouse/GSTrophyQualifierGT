@@ -116,10 +116,42 @@
                 <p class="paragraph__title">acompañantes</p>
             </div>
         </section>
+
+         <!-- Tabla de ganadores-->
+
         <section class="divisor">
             <div class="divisor__line-left divisor__line-left--color"></div>
-            <img class="divisor__image" src="./statics/images/Icono_primer_lugar.png" alt="Ilustración de montaña para delimietar la sección informativa del GS Trophy Qualifier GT"/>
+            <img id="winer-place" class="divisor__image"/>
             <div class="divisor__line-right divisor__line-right--color"></div>
+        </section>
+        <section class="container-table-win">
+            <img id="arrow-left" class="container-table-win__img-izq" src="./statics/images/Iconos_flecha_izquierda.png" alt="flecha izquierda para la navegación entre los ganadores"/>
+            <img id ="win-moto" class="container-table-win__img--moto"/>
+            <img id ="arrow-right" class="container-table-win__img-der" src="./statics/images/Iconos_flecha_derecha.png" alt="flecha derecha para la navegación entre los ganadores"/>
+            <div class="container-table-win__winer">
+                <div class="container-winer">
+                    <p id="winer-name" class="container-winer--name"></p>
+                    <p class="container-winer--title">Puntuación</p>
+                    <p id="winer-points" class="container-winer--pts"></p>
+                </div>
+            </div>
+        </section>
+        <section class="divisor">
+            <div class="divisor__line-left"></div>
+            <h1 class="divisor__title__content divisor__title--table">Tabla de </br> posiciones</h1>
+            <div class="divisor__line-right"></div>
+        </section>
+        <section class="container-pts">
+            <p class="container-pts--number">#</p>
+            <p class="container-pts--name">nombre</p>
+            <p class="container-pts--points">pts</p>
+        </section>
+        <section id="constructor-table" class="container-position-table">
+        </section>
+        <section class="divisor">
+            <div class="divisor__line-left"></div>
+            <h1 class="divisor__title__content">Testimonios</h1>
+            <div class="divisor__line-right"></div>
         </section>
 
     </main>
@@ -128,5 +160,7 @@
 <script src="./src/modules/objectModel.js" type="module"></script>
 <script src="./src/modules/rules.js" type="module"></script>
 <script src="./src/modules/displayContent.js" type="module"></script>
+<script src="./src/modules/orderPositionTable.js" type="module"></script>
+<script src="./src/modules/displayTopWiners.js" type="module"></script>
 
 </html>
