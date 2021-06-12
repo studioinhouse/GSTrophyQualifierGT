@@ -144,6 +144,13 @@
     line-height: 1.8rem;
 }
 
+/* Image Section */
+
+.container-scroll-img__section{
+    width: 50%;
+}
+
+/* Footer */
 .container-footer{
     height: 10vh;
 }

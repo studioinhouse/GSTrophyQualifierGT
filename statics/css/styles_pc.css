@@ -236,6 +236,18 @@ header{
     padding: 15rem;
 }
 
+/* image Section */
+
+.container-display-img--title{
+
+    font-size: 2.2rem;
+    margin-bottom: 3.5rem;
+}
+
+.container-scroll-img__section{
+    width: 40%;
+}
+
 /* Footer */
 
 .container-footer__img{

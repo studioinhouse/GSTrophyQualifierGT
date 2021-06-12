@@ -76,5 +76,37 @@ let bikerPositionTable = [
 
 ]
 
+class PositionImg{
+    constructor(name, img){
+        this.name = name,
+        this.img = img
+    }
+}
 
-export{ bikerRules, bikerPositionTable }
+let img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20;
+
+let bikerImageDay = [
+    img1 = new PositionImg('GS_img1', './statics/images/GSTrophy_img_day/image-1.jpg'),
+    img2 = new PositionImg('GS_img2', './statics/images/GSTrophy_img_day/image-2.jpg'),
+    img3 = new PositionImg('GS_img3', './statics/images/GSTrophy_img_day/image-3.jpg'),
+    img4 = new PositionImg('GS_img4', './statics/images/GSTrophy_img_day/image-4.jpg'),
+    img5 = new PositionImg('GS_img5', './statics/images/GSTrophy_img_day/image-5.jpg'),
+    img6 = new PositionImg('GS_img6', './statics/images/GSTrophy_img_day/image-6.jpg'),
+    img7 = new PositionImg('GS_img7', './statics/images/GSTrophy_img_day/image-7.jpg'),
+    img8 = new PositionImg('GS_img8', './statics/images/GSTrophy_img_day/image-8.jpg'),
+    img9 = new PositionImg('GS_img9', './statics/images/GSTrophy_img_day/image-9.jpg'),
+    img10 = new PositionImg('GS_img10', './statics/images/GSTrophy_img_day/image-10.jpg'),
+    img11 = new PositionImg('GS_img11', './statics/images/GSTrophy_img_day/image-11.jpg'),
+    img12 = new PositionImg('GS_img12', './statics/images/GSTrophy_img_day/image-12.jpg'),
+    img13 = new PositionImg('GS_img13', './statics/images/GSTrophy_img_day/image-13.jpg'),
+    img14 = new PositionImg('GS_img14', './statics/images/GSTrophy_img_day/image-14.jpg'),
+    img15 = new PositionImg('GS_img15', './statics/images/GSTrophy_img_day/image-15.jpg'),
+    img16 = new PositionImg('GS_img16', './statics/images/GSTrophy_img_day/image-16.jpg'),
+    img17 = new PositionImg('GS_img17', './statics/images/GSTrophy_img_day/image-17.jpg'),
+    img18 = new PositionImg('GS_img18', './statics/images/GSTrophy_img_day/image-18.jpg'),
+    img19 = new PositionImg('GS_img19', './statics/images/GSTrophy_img_day/image-19.jpg'),
+    img20 = new PositionImg('GS_img20', './statics/images/GSTrophy_img_day/image-20.jpg'),
+]; 
+
+
+export{ bikerRules, bikerPositionTable, bikerImageDay }
