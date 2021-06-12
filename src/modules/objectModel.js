@@ -83,7 +83,7 @@ class PositionImg{
     }
 }
 
-let img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20;
+let img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22,img23,img24,img25,img26,img27,img28,img29,img30,img31,img32,img33,img34,img35,img36,img37,img38,img39,img40,img41,img42,img43,img44;
 
 let bikerImageDay = [
     img1 = new PositionImg('GS_img1', './statics/images/GSTrophy_img_day/image-1.jpg'),
@@ -106,6 +106,31 @@ let bikerImageDay = [
     img18 = new PositionImg('GS_img18', './statics/images/GSTrophy_img_day/image-18.jpg'),
     img19 = new PositionImg('GS_img19', './statics/images/GSTrophy_img_day/image-19.jpg'),
     img20 = new PositionImg('GS_img20', './statics/images/GSTrophy_img_day/image-20.jpg'),
+    img21 = new PositionImg('GS_img21', './statics/images/GSTrophy_img_day/image-21.jpg'),
+    img22 = new PositionImg('GS_img22', './statics/images/GSTrophy_img_day/image-22.jpg'),
+    img23 = new PositionImg('GS_img23', './statics/images/GSTrophy_img_day/image-23.jpg'),
+    img24 = new PositionImg('GS_img24', './statics/images/GSTrophy_img_day/image-24.jpg'),
+    img25 = new PositionImg('GS_img25', './statics/images/GSTrophy_img_day/image-25.jpg'),
+    img26 = new PositionImg('GS_img26', './statics/images/GSTrophy_img_day/image-26.jpg'),
+    img27 = new PositionImg('GS_img27', './statics/images/GSTrophy_img_day/image-27.jpg'),
+    img28 = new PositionImg('GS_img28', './statics/images/GSTrophy_img_day/image-28.jpg'),
+    img29 = new PositionImg('GS_img29', './statics/images/GSTrophy_img_day/image-29.jpg'),
+    img30 = new PositionImg('GS_img30', './statics/images/GSTrophy_img_day/image-30.jpg'),
+    img31 = new PositionImg('GS_img31', './statics/images/GSTrophy_img_day/image-31.jpg'),
+    img32 = new PositionImg('GS_img32', './statics/images/GSTrophy_img_day/image-32.jpg'),
+    img33 = new PositionImg('GS_img33', './statics/images/GSTrophy_img_day/image-33.jpg'),
+    img34 = new PositionImg('GS_img34', './statics/images/GSTrophy_img_day/image-34.jpg'),
+    img35 = new PositionImg('GS_img35', './statics/images/GSTrophy_img_day/image-35.jpg'),
+    img36 = new PositionImg('GS_img36', './statics/images/GSTrophy_img_day/image-36.jpg'),
+    img37 = new PositionImg('GS_img37', './statics/images/GSTrophy_img_day/image-37.jpg'),
+    img38 = new PositionImg('GS_img38', './statics/images/GSTrophy_img_day/image-38.jpg'),
+    img39 = new PositionImg('GS_img39', './statics/images/GSTrophy_img_day/image-39.jpg'),
+    img40 = new PositionImg('GS_img40', './statics/images/GSTrophy_img_day/image-40.jpg'),
+    img41 = new PositionImg('GS_img41', './statics/images/GSTrophy_img_day/image-41.jpg'),
+    img42 = new PositionImg('GS_img42', './statics/images/GSTrophy_img_day/image-42.jpg'),
+    img43 = new PositionImg('GS_img43', './statics/images/GSTrophy_img_day/image-43.jpg'),
+    img44 = new PositionImg('GS_img44', './statics/images/GSTrophy_img_day/image-44.jpg'),
+
 ]; 
 
 
