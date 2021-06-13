@@ -83,7 +83,7 @@ class PositionImg{
     }
 }
 
-let img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22,img23,img24,img25,img26,img27,img28,img29,img30,img31,img32,img33,img34,img35,img36,img37,img38,img39,img40,img41,img42,img43,img44, img45, img46, img47, img48, img49, img50, img51, img52, img53, img54, img55, img56, img57, img58;
+let img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22,img23,img24,img25,img26,img27,img28,img29,img30,img31,img32,img33,img34,img35,img36,img37,img38,img39,img40,img41,img42,img43,img44, img45, img46, img47, img48, img49, img50, img51, img52, img53, img54, img55, img56, img57, img58, img59,img60,img61,img62,img63,img64,img65,img66,img67,img68,img69,img70,img71;
 
 let bikerImageDay = [
     img1 = new PositionImg('GS_img1', './statics/images/GSTrophy_img_day/image-1.jpg'),
@@ -144,7 +144,19 @@ let bikerImageDay = [
     img56 = new PositionImg('GS_img56', './statics/images/GSTrophy_img_day/image-56.jpg'),
     img57 = new PositionImg('GS_img57', './statics/images/GSTrophy_img_day/image-57.jpg'),
     img58 = new PositionImg('GS_img58', './statics/images/GSTrophy_img_day/image-58.jpg'),
-
+    img59 = new PositionImg('GS_img59', './statics/images/GSTrophy_img_day/image-59.jpg'),
+    img60 = new PositionImg('GS_img60', './statics/images/GSTrophy_img_day/image-60.jpg'),
+    img61 = new PositionImg('GS_img61', './statics/images/GSTrophy_img_day/image-61.jpg'),
+    img62 = new PositionImg('GS_img62', './statics/images/GSTrophy_img_day/image-62.jpg'),
+    img63 = new PositionImg('GS_img63', './statics/images/GSTrophy_img_day/image-63.jpg'),
+    img64 = new PositionImg('GS_img64', './statics/images/GSTrophy_img_day/image-64.jpg'),
+    img65 = new PositionImg('GS_img65', './statics/images/GSTrophy_img_day/image-65.jpg'),
+    img66 = new PositionImg('GS_img66', './statics/images/GSTrophy_img_day/image-66.jpg'),
+    img67 = new PositionImg('GS_img67', './statics/images/GSTrophy_img_day/image-67.jpg'),
+    img68 = new PositionImg('GS_img68', './statics/images/GSTrophy_img_day/image-68.jpg'),
+    img69 = new PositionImg('GS_img69', './statics/images/GSTrophy_img_day/image-69.jpg'),
+    img70 = new PositionImg('GS_img70', './statics/images/GSTrophy_img_day/image-70.jpg'),
+    img71 = new PositionImg('GS_img71', './statics/images/GSTrophy_img_day/image-71.jpg'),
 ]; 
 
 
