@@ -1,5 +1,5 @@
 import { bikerRuleDisplay } from './rules.js';
-import { winerDirection } from './displayTopWiners.js';
+import { winerDirection, winerDirectionBack } from './displayTopWiners.js';
 
 const rule1 = document.getElementById('1').addEventListener('click', bikerRuleDisplay);
 const rule2 = document.getElementById('2').addEventListener('click', bikerRuleDisplay);
@@ -9,3 +9,4 @@ const rule5 = document.getElementById('5').addEventListener('click', bikerRuleDi
 const rule6 = document.getElementById('6').addEventListener('click', bikerRuleDisplay);
 
 const directionRight = document.getElementById('arrow-right').addEventListener('click', winerDirection);
+const directionLeft = document.getElementById('arrow-left').addEventListener('click', winerDirectionBack);

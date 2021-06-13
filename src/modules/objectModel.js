@@ -41,8 +41,8 @@ let JorgeSoto, DiegoMayen, CarlosRamos, IvanNavas, JoseCanizalez, JuanPalmieri, 
 
 let bikerPositionTable = [
     MichaelVowesh = new PositionTable(1,'Michael Vowesh', 'Guatemala', 'R1250GS', 36),
-    LuisPalmieri = new PositionTable(2,'Luis Palmieri', 'Guatemala', 'R1250GS', 34),
-    AndresVega = new PositionTable(3,'Andres Vega', 'Guatemala', 'R1250GS', 27),
+    LuisPalmieri = new PositionTable(2,'Luis Palmieri', 'Guatemala', 'R1250GS_blanco', 34),
+    AndresVega = new PositionTable(3,'Andres Vega', 'Guatemala', 'R1250GS_negro', 27),
     DiegoMayen = new PositionTable(4,'Diego Mayen', 'Guatemala', 'R1250GS', 23),
     LuisGonzalez = new PositionTable(5,'Luis González', 'Guatemala', 'R1250GS', 23),
     CarlosPortillo = new PositionTable(6,'Carlos Portillo', 'Guatemala', 'R1250GS', 22),
