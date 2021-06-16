@@ -150,6 +150,10 @@
     width: 50%;
 }
 
+.container-share--img {
+    width: 50vw;
+}
+
 /* Pop-up Share */
 
 .container-menu-share,
