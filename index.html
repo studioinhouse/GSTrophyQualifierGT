@@ -224,9 +224,22 @@
         </section>
 
         <section id="galery"class="container-display-img">
+            <div id="pop-up-share" class="container-menu-share">
+                <div id="pop-up-share-close" class="pop-up__close">
+                    <div class="pop-up__close--figure"></div>
+                </div>
+                <a class="container-menu-share--title">Compartir en...</a>
+                <ul class="container-menu-share__list">
+                    <li id="fb" class="container-menu-share__list_access fb"><a>Facebook</a></li>
+                    <!-- <li id="pnt" class="container-menu-share__list_access in"><a>Pinterest</a></li> -->
+                    <li id="twt" class="container-menu-share__list_access tw"><a>Twitter</a></li>
+                    <li id="wts" class="container-menu-share__list_access wt"><a>WhatsApp</a></li>
+                </ul>
+            </div>
             <p class="container-display-img--title">La competencia ha comenzado y todos los participantes están listos para superar su propio reto GS Trophy Qualifier GT. Te compartimos las imágenes más sobresalientes del día, como van transcurriendo este gran evento.</p>
             <div class="container-scroll-show">
-                <div id="constructor-show-img" class="container-scroll-img"></div>
+                <div id="constructor-show-img" class="container-scroll-img">
+                </div>
             </div>
         </section>
         
@@ -237,6 +250,18 @@
         </section>
 
         <section id="galery"class="container-display-img2">
+            <div id="pop-up-share2" class="container-menu-share2">
+                <div id="pop-up-share-close2" class="pop-up__close">
+                    <div class="pop-up__close--figure"></div>
+                </div>
+                <a class="container-menu-share--title">Compartir en...</a>
+                <ul class="container-menu-share__list2">
+                    <li id="fb2" class="container-menu-share__list_access fb"><a>Facebook</a></li>
+                    <<!-- li id="pnt2" class="container-menu-share__list_access in"><a>Pinterest</a></li> -->
+                    <li id="twt2" class="container-menu-share__list_access tw"><a>Twitter</a></li>
+                    <li id="wts2" class="container-menu-share__list_access wt"><a>WhatsApp</a></li>
+                </ul>
+            </div>
             <p class="container-display-img--title">La competencia continúa y cada uno de los participantes están dando su mejor esfuerzo para poder obtener un puesto en el podium de ganadores.</p>
             <div class="container-scroll-show">
                 <div id="constructor-show-img2" class="container-scroll-img"></div>
@@ -252,12 +277,13 @@
     </main>
 </body>
 <script src="./src/app.js"></script>
+<script src="./src/modules/initiatorimg.js" type="module"></script>
 <script src="./src/modules/objectModel.js" type="module"></script>
 <script src="./src/modules/rules.js" type="module"></script>
 <script src="./src/modules/displayContent.js" type="module"></script>
 <script src="./src/modules/orderPositionTable.js" type="module"></script>
 <script src="./src/modules/displayTopWiners.js" type="module"></script>
-<script src="./src/modules/initiatorimg.js" type="module"></script>
+<script src="./src/modules/shareAction.js" type="module"></script>
 
 </html>
 

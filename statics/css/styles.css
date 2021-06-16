@@ -297,6 +297,7 @@
     top:0;
     right:0;
     position: absolute;
+    z-index: 20;
 }
 
 .pop-up__close--figure,
@@ -584,6 +585,112 @@
     border-radius: 2rem;
 }
 
+.container-share-button{
+    width: 100vw;
+    height: auto;
+    position: relative;
+
+}
+
+.container-share--img{
+    width: 100vw;
+    padding-right: 0.5rem;
+    border-radius: 2rem;
+}
+
+.share-button{
+    top: 1rem;
+    right: 2rem;
+    position:absolute;
+    width: 10%;
+    opacity: 0.9;
+
+}
+
+/* Pop up share bottom superior */
+
+.container-display-img{
+    position:relative;
+}
+
+.container-menu-share{
+    width: 80vw;
+    height: 41vh;
+    margin: auto;
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+    opacity: 0.9;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: 20;
+    display:none;
+}
+
+.container-menu-share__list{
+    position: absolute;
+    left: 7rem;
+    top: 7rem;
+}
+
+.container-menu-share__list_access{
+    color: #ffffff;
+    font-family: var(--primary-font);
+    font-size: 3rem;
+    list-style-type: georgian;
+    padding-left: 5rem;
+    cursor: pointer;
+}
+
+.container-menu-share--title{
+    width: 80vw;
+    height: 10vh;
+    margin: auto;
+    background-color: var(--primary-color-hov);
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    opacity: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    color: #ffffff;
+    padding-top: 1rem;
+}
+
+/* Pop up share bottom inferior */
+
+.container-display-img2{
+    position:relative;
+}
+
+.container-menu-share2{
+    width: 80vw;
+    height: 41vh;
+    margin: auto;
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+    opacity: 0.9;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: 20;
+    display:none;
+}
+
+.container-menu-share__list2{
+    position: absolute;
+    left: 7rem;
+    top: 7rem;
+}
+
 /* Footer */
 
 .container-footer{
@@ -602,4 +709,24 @@
     left: 0;
     margin: auto;
     position: absolute;
+}
+
+.fb{
+    list-style-image: url("/statics/images/facebook.svg");
+}
+
+.in{
+    list-style-image: url("/statics/images/instagram.svg");
+}
+
+.tw{
+    list-style-image: url("/statics/images/twitter.svg");
+}
+
+.wt{
+    list-style-image: url("/statics/images/whatsapp.svg");
+}
+
+.close-share{
+    background-color:red;
 }
