@@ -712,19 +712,19 @@
 }
 
 .fb{
-    list-style-image: url("/statics/images/facebook.svg");
+    list-style-image: url("../images/facebook.svg");
 }
 
 .in{
-    list-style-image: url("/statics/images/instagram.svg");
+    list-style-image: url("../images/instagram.svg");
 }
 
 .tw{
-    list-style-image: url("/statics/images/twitter.svg");
+    list-style-image: url("../images/twitter.svg");
 }
 
 .wt{
-    list-style-image: url("/statics/images/whatsapp.svg");
+    list-style-image: url("../images/whatsapp.svg");
 }
 
 .close-share{
