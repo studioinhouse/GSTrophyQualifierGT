@@ -150,6 +150,24 @@
     width: 50%;
 }
 
+/* Pop-up Share */
+
+.container-menu-share,
+.container-menu-share2{
+    width: 50vw;
+    height: 50vh;
+}
+
+.container-menu-share--title{
+    width: 50vw;
+}
+
+.container-menu-share__list,
+.container-menu-share__list2 {
+    left: 11rem;
+}
+
+
 /* Footer */
 .container-footer{
     height: 10vh;

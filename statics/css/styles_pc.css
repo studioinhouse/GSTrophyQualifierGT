@@ -238,6 +238,10 @@ header{
 
 /* image Section */
 
+.container-share--img {
+    width: 33vw;
+}
+
 .container-display-img--title{
 
     font-size: 2.2rem;
@@ -248,6 +252,31 @@ header{
     width: 40%;
 }
 
+/* Pop-up Share */
+
+.container-menu-share__list_access {
+    font-size: 4.5rem;
+}
+
+.container-menu-share,
+.container-menu-share2{
+    width: 36vw;
+    height: 50vh;
+}
+
+.container-menu-share__list,
+.container-menu-share__list2 {
+    left: 18rem;
+    top: 10rem;
+}
+
+.container-menu-share--title{
+    width: 36vw;
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+
 /* Footer */
 
 .container-footer__img{
@@ -257,3 +286,4 @@ header{
 
 
 
+}

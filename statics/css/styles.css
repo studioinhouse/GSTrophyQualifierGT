@@ -604,6 +604,7 @@
     position:absolute;
     width: 10%;
     opacity: 0.9;
+    cursor: pointer;
 
 }
 
@@ -660,7 +661,7 @@
     font-family: var(--primary-font);
     font-size: 2rem;
     color: #ffffff;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 /* Pop up share bottom inferior */
